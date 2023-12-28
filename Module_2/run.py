@@ -28,7 +28,7 @@ def analyse_feedback_data(file_path):
         return None
 
 
-def feedback_files(folder_path)
+def feedback_files(folder_path):
     feedback_data = []
     files = os.listdir(folder_path)
 
