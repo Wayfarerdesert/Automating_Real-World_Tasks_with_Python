@@ -24,6 +24,8 @@ def generate(filename, title, additional_info, table_data):
 
 
 
+##############################################################################################
+
 def pieChart(data):
     report_pie = Pie(width=400, height=400)
     report_pie.data = [i [-1] for i in data]
